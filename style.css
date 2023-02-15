@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.profile-section {
+  background-image: url("Assets/profile background-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.profile-cols {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.profile-col-name {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.profile-col-name p {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 4.5rem;
+  line-height: 4rem;
+  letter-spacing: 0.8rem;
+  color: #fff;
+}
+.profile-col-name h6 {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 0.8rem;
+  line-height: 3rem;
+  color: #fff;
+}
+.profile-col-location {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 1rem 2rem;
+}
+.profile-col-location p {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+.profile-col-location p i {
+  color: aliceblue;
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+.profile-col-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.profile-col-2 img {
+  width: 40%;
+}
+
+/* About Section */
+.about-section {
+  padding: 2rem 5rem;
+}
+.about-section p,
+.experience-section p:first-child {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.6rem;
+  line-height: 4rem;
+  color: #004a77;
+}
+.about-section h6,
+.experience-content p,
+.experience-content h4,
+.experience-content li {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 0;
+  line-height: 2rem;
+  color: #202122;
+}
+.skill-section {
+  padding: 1rem 8rem;
+}
+.skill-section table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.skill-section tr {
+  height: 2.5rem;
+}
+.skill-section tr th {
+  background-color: #f2f2f2;
+}
+.experience-section {
+  padding: 1rem 5rem;
+}
+.experience-content h6,
+.experience-content h5 {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #636363;
+}
+.experience-content h6 span {
+  color: #054e7a !important;
+  font-weight: 500 !important;
+}
+.experience-content h5 span {
+  color: #313131 !important;
+  font-weight: 500 !important;
+}
+.experience-content ul {
+  padding-left: 12rem;
+}
+.margin-for-experience {
+  margin-top: 0rem !important;
+}
+.experience-content {
+  margin-top: 3rem;
+}
+.projects-education-section {
+  padding: 2rem 0rem;
+}
+.projects-col {
+  background-image: url("Assets/project-background-img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75%;
+}
+.projects-col p {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  line-height: 10rem;
+}
+.projects-education-cols {
+  display: flex;
+}
+.projects-education-cols .line-col {
+  border-right: 1px solid #e7e6e6;
+}
+.education-col {
+  background-image: url("Assets/education-backgd-img.png");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.education-col p {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.projects-education-cols {
+  padding-top: 5rem;
+}
+.projects-contents {
+  padding: 3rem;
+}
+.education-content-pad {
+  padding: 2rem;
+}
+.education-contents {
+  padding-left: 4rem;
+}
+.coding-section {
+  padding: 1rem 0rem;
+}
+.coding-col {
+  background-image: url("Assets/coding-sec-bag-img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.coding-col p {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 3rem;
+  color: #ffffff;
+  letter-spacing: 0.5rem;
+  padding: 4rem 0rem;
+}
+.coding-content {
+  padding: 2rem 4rem;
+}
+.coding-content p {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.8rem;
+  line-height: 4rem;
+  color: #004a77;
+}
+.coding-content h6 {
+  font-family: "Calibri";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 0;
+  line-height: 2rem;
+  color: #202122;
+}
